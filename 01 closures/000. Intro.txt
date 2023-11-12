@@ -1,0 +1,5 @@
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment).
+A closure is a function having access to the parent scope, even after the parent function has closed.
+A closure means that an function always has access to the vars and parameters of its outer function, even after the outer function has returned.
+
+closure => access of [current function execution context + [parent function execution context ...till global execution context] (scope chain)].
